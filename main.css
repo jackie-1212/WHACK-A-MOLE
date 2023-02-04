@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background-color: aquamarine;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin: 0;
+  line-height: 1;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.start {
+  font-size: 2em;
+  margin: 20px 5px;
+  text-align: center;
+}
+
+.score {
+  color: black;
+  padding: 0 5rem;
+  line-height: 2;
+  border-radius: 3rem;
+}
+
+.Game {
+  background-color: white;
+  height: 600px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  z-index: 1;
+  justify-content: space-around;
+}
+
+.hole {
+  flex: 0 0 33.3%;
+  width: 100px;
+  height: 80px;
+  position: relative;
+  z-index: 2;
+  background: url("images/bighole.png") no-repeat;
+  background-size: 100% 100%;
+  background-position: 0% 0%;
+}
+
+.Trips {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.mole {
+  background: url(images/bigmole.png) no-repeat;
+  height: 80px;
+  width: 100px;
+  position: relative;
+  background-size: contain;
+  display: block;
+  z-index: 2;
+  flex: 0 0 33.3%;
+  background-size: 100% 100%;
+  background-position: 0% 0%;
+}

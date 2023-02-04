@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WHACK A MOLE</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="index.js">   
+      defer
+    </script>
+  </head>
+  <body>
+    <h1>WHACK A MOLE!!!<span class="Score" id="scorehit">0</span></h1>
+    <h2 id="resulttext"></h2>
+    <div class="start">
+      <button onclick="gameStart()" id="btn">Start!</button>
+    </div>
+    <div class="Game">
+      <div class="Trips">
+      <div id="slot1">
+      <img class="hole" id="hole1"></img>
+      <img onclick= "molehit(1)" class="mole" id="mole1"></img>
+      </div>
+      <div id="slot2">
+        <img class="hole" id="hole2"></img>
+        <img onclick= "molehit(2)"  class="mole" id="mole2"></img>
+        </div>
+        <div id="slot3">
+          <img class="hole" id="hole3"></img>
+          <img onclick= "molehit(3)" class="mole" id="mole3"></img>
+          </div>
+      </div>
+      <div class="Trips">
+        <div id="slot4">
+        <img class="hole" id="hole4"></img>
+        <img onclick= "molehit(4)" class="mole" id="mole4"></img>
+        </div>
+        <div id="slot5">
+          <img class="hole" id="hole5"></img>
+          <img onclick= "molehit(5)" class="mole" id="mole5"></img>
+          </div>
+          <div id="slot6">
+            <img class="hole" id="hole6"></img>
+            <img onclick= "molehit(6)" class="mole" id="mole6"></img>
+            </div>
+        </div>
+        <div class="Trips">
+          <div id="slot7">
+          <img class="hole" id="hole7"></img>
+          <img onclick= "molehit(7)" class="mole" id="mole7"></img>
+          </div>
+          <div id="slot8">
+            <img class="hole" id="hole8"></img>
+            <img onclick= "molehit(8)" class="mole" id="mole8"></img>
+            </div>
+            <div id="slot9">
+              <img class="hole" id="hole9"></img>
+              <img onclick= "molehit(9)" class="mole" id="mole9"></img>
+              </div>
+          </div>
+
+    </div>
+  </body>
+</html>
